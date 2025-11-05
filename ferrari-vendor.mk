@@ -752,6 +752,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/odm/etc/irissoft.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft.fw \
     vendor/realme/ferrari/proprietary/odm/etc/irissoft_oplus.xml:$(TARGET_COPY_OUT_ODM)/etc/irissoft_oplus.xml \
     vendor/realme/ferrari/proprietary/odm/etc/irissoft_samsung_S6E3HC3_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_ODM)/etc/irissoft_samsung_S6E3HC3_dsc_cmd_mode_panel.xml \
+    vendor/realme/ferrari/proprietary/odm/etc/irissoft_samsung_S6E3HC3_dsc_cmd_mode_panel_21631.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft_samsung_S6E3HC3_dsc_cmd_mode_panel_21631.fw \
     vendor/realme/ferrari/proprietary/odm/etc/irissoft_samsung_S6E3HC3_dsc_cmd_mode_panel_21631.xml:$(TARGET_COPY_OUT_ODM)/etc/irissoft_samsung_S6E3HC3_dsc_cmd_mode_panel_21631.xml \
     vendor/realme/ferrari/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat \
     vendor/realme/ferrari/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Configuration.txt \
@@ -861,7 +862,72 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/vendor/firmware/CAMERA_ICP.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mdt \
     vendor/realme/ferrari/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
     vendor/realme/ferrari/proprietary/vendor/firmware/CAMERA_ICP_480.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_480.elf \
+    vendor/realme/ferrari/proprietary/vendor/firmware/a730_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_sqe.fw \
+    vendor/realme/ferrari/proprietary/vendor/firmware/a730_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_zap.b00 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/a730_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_zap.b01 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/a730_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_zap.b02 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/a730_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_zap.elf \
+    vendor/realme/ferrari/proprietary/vendor/firmware/a730_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_zap.mbn \
+    vendor/realme/ferrari/proprietary/vendor/firmware/a730_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_zap.mdt \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b00 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b01 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b02 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b03 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b04 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b05 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b06 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b07 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b08 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b09 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b10 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b11 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b12 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b13 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b14 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b15 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b16 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b17 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b18 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b19 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.mbn \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass-lt-21.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.mdt \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b00 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b03 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b04 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b05 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b06 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b07 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b08 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b09 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b10 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b11 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b12 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b13 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b14 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b15 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b16 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b17 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b18 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b19 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evautil64.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evautil64.b00 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evautil64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evautil64.b01 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evautil64.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evautil64.b02 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evautil64.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evautil64.b03 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evautil64.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evautil64.b04 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evautil64.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evautil64.b05 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evautil64.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evautil64.b06 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evautil64.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evautil64.b07 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evautil64.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evautil64.b08 \
+    vendor/realme/ferrari/proprietary/vendor/firmware/evautil64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evautil64.mdt \
+    vendor/realme/ferrari/proprietary/vendor/firmware/gmu_gen70000.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70000.bin \
     vendor/realme/ferrari/proprietary/vendor/firmware/sn100u.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sn100u.bin \
+    vendor/realme/ferrari/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
+    vendor/realme/ferrari/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
+    vendor/realme/ferrari/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
     vendor/realme/ferrari/proprietary/vendor/lib64/camera/arcsoft_calibration_uw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_calibration_uw.bin \
     vendor/realme/ferrari/proprietary/vendor/lib64/camera/arcsoft_calibration_wt.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_calibration_wt.bin \
     vendor/realme/ferrari/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_t.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_t.bin \
