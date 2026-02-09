@@ -1,0 +1,77 @@
+[
+    {
+        "project":"216AC",
+        "name":"eea",
+        "product":"RMX3301EEA",
+        "device":"RED8ACL1",
+        "model":"RMX3301",
+        "first_api_level":"31",
+        "brand":"realme",
+        "manufacturer":"realme",
+        "base_oses": [
+            {
+              "15": "realme/RMX3301EEA/RED8ACL1:15/AP3A.240617.008/S.1f12fd4-14f36-c0:user/release-keys"
+            }
+        ]
+    },
+    {
+        "project":"216AC",
+        "name":"default",
+        "product":"RMX3301",
+        "device":"RED8ACL1",
+        "model":"RMX3301",
+        "first_api_level":"31",
+        "brand":"realme",
+        "manufacturer":"realme",
+        "base_oses": [
+            {
+              "15": "realme/RMX3301/RED8ACL1:15/AP3A.240617.008/S.1f12fd4-14f36-c0:user/release-keys"
+            }
+        ]
+    },
+    {
+        "project":"216AC",
+        "name":"t2",
+        "product":"RMX3301T2",
+        "device":"RED8ACL1",
+        "model":"RMX3301",
+        "first_api_level":"31",
+        "brand":"realme",
+        "manufacturer":"realme",
+        "base_oses": [
+            {
+              "15": "realme/RMX3301T2/RED8ACL1:15/AP3A.240617.008/S.1f12fd4-14f36-c0:user/release-keys"
+            }
+        ]
+    },
+    {
+        "project":"216AC",
+        "name":"tr",
+        "product":"RMX3301TR",
+        "device":"RED8ACL1",
+        "model":"RMX3301",
+        "first_api_level":"31",
+        "brand":"realme",
+        "manufacturer":"realme",
+        "base_oses": [
+            {
+              "15": "realme/RMX3301TR/RED8ACL1:15/AP3A.240617.008/S.1f12fd4-14f36-c0:user/release-keys"
+            }
+        ]
+    },
+    {
+        "project":"216AC",
+        "name":"ru",
+        "product":"RMX3301RU",
+        "device":"RED8ACL1",
+        "model":"RMX3301",
+        "first_api_level":"31",
+        "brand":"realme",
+        "manufacturer":"realme",
+        "base_oses": [
+            {
+              "15": "realme/RMX3301RU/RED8ACL1:15/AP3A.240617.008/S.1f12fd4-14f36-c0:user/release-keys"
+            }
+        ]
+    }
+]
