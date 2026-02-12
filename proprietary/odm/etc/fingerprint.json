@@ -7,12 +7,7 @@
         "model":"RMX3301",
         "first_api_level":"31",
         "brand":"realme",
-        "manufacturer":"realme",
-        "base_oses": [
-            {
-              "15": "realme/RMX3301EEA/RED8ACL1:15/AP3A.240617.008/S.1f12fd4-14f36-c0:user/release-keys"
-            }
-        ]
+        "manufacturer":"realme"
     },
     {
         "project":"216AC",
@@ -22,12 +17,7 @@
         "model":"RMX3301",
         "first_api_level":"31",
         "brand":"realme",
-        "manufacturer":"realme",
-        "base_oses": [
-            {
-              "15": "realme/RMX3301/RED8ACL1:15/AP3A.240617.008/S.1f12fd4-14f36-c0:user/release-keys"
-            }
-        ]
+        "manufacturer":"realme"
     },
     {
         "project":"216AC",
@@ -37,12 +27,7 @@
         "model":"RMX3301",
         "first_api_level":"31",
         "brand":"realme",
-        "manufacturer":"realme",
-        "base_oses": [
-            {
-              "15": "realme/RMX3301T2/RED8ACL1:15/AP3A.240617.008/S.1f12fd4-14f36-c0:user/release-keys"
-            }
-        ]
+        "manufacturer":"realme"
     },
     {
         "project":"216AC",
@@ -52,12 +37,7 @@
         "model":"RMX3301",
         "first_api_level":"31",
         "brand":"realme",
-        "manufacturer":"realme",
-        "base_oses": [
-            {
-              "15": "realme/RMX3301TR/RED8ACL1:15/AP3A.240617.008/S.1f12fd4-14f36-c0:user/release-keys"
-            }
-        ]
+        "manufacturer":"realme"
     },
     {
         "project":"216AC",
@@ -67,11 +47,6 @@
         "model":"RMX3301",
         "first_api_level":"31",
         "brand":"realme",
-        "manufacturer":"realme",
-        "base_oses": [
-            {
-              "15": "realme/RMX3301RU/RED8ACL1:15/AP3A.240617.008/S.1f12fd4-14f36-c0:user/release-keys"
-            }
-        ]
+        "manufacturer":"realme"
     }
 ]
