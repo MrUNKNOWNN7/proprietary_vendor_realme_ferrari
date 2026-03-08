@@ -6,6 +6,109 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/ferrari
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b00:$(TARGET_COPY_OUT_MODEM)/image/adsp.b00 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b01:$(TARGET_COPY_OUT_MODEM)/image/adsp.b01 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b02:$(TARGET_COPY_OUT_MODEM)/image/adsp.b02 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b03:$(TARGET_COPY_OUT_MODEM)/image/adsp.b03 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b04:$(TARGET_COPY_OUT_MODEM)/image/adsp.b04 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b05:$(TARGET_COPY_OUT_MODEM)/image/adsp.b05 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b06:$(TARGET_COPY_OUT_MODEM)/image/adsp.b06 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b07:$(TARGET_COPY_OUT_MODEM)/image/adsp.b07 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b08:$(TARGET_COPY_OUT_MODEM)/image/adsp.b08 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b09:$(TARGET_COPY_OUT_MODEM)/image/adsp.b09 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b10:$(TARGET_COPY_OUT_MODEM)/image/adsp.b10 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b11:$(TARGET_COPY_OUT_MODEM)/image/adsp.b11 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b12:$(TARGET_COPY_OUT_MODEM)/image/adsp.b12 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b13:$(TARGET_COPY_OUT_MODEM)/image/adsp.b13 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b14:$(TARGET_COPY_OUT_MODEM)/image/adsp.b14 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b15:$(TARGET_COPY_OUT_MODEM)/image/adsp.b15 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b16:$(TARGET_COPY_OUT_MODEM)/image/adsp.b16 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b17:$(TARGET_COPY_OUT_MODEM)/image/adsp.b17 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b18:$(TARGET_COPY_OUT_MODEM)/image/adsp.b18 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b19:$(TARGET_COPY_OUT_MODEM)/image/adsp.b19 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b20:$(TARGET_COPY_OUT_MODEM)/image/adsp.b20 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b21:$(TARGET_COPY_OUT_MODEM)/image/adsp.b21 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b22:$(TARGET_COPY_OUT_MODEM)/image/adsp.b22 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b23:$(TARGET_COPY_OUT_MODEM)/image/adsp.b23 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.b25:$(TARGET_COPY_OUT_MODEM)/image/adsp.b25 \
+    vendor/realme/ferrari/proprietary/modem/image/adsp.mdt:$(TARGET_COPY_OUT_MODEM)/image/adsp.mdt \
+    vendor/realme/ferrari/proprietary/modem/image/adspr.jsn:$(TARGET_COPY_OUT_MODEM)/image/adspr.jsn \
+    vendor/realme/ferrari/proprietary/modem/image/adspua.jsn:$(TARGET_COPY_OUT_MODEM)/image/adspua.jsn \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b00:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b00 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b01:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b01 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b02:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b02 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b03:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b03 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b04:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b04 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b05:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b05 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b06:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b06 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b07:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b07 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b08:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b08 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b09:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b09 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b10:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b10 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b11:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b11 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b12:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b12 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b13:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b13 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b14:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b14 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b15:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b15 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.b17:$(TARGET_COPY_OUT_MODEM)/image/cdsp.b17 \
+    vendor/realme/ferrari/proprietary/modem/image/cdsp.mdt:$(TARGET_COPY_OUT_MODEM)/image/cdsp.mdt \
+    vendor/realme/ferrari/proprietary/modem/image/cdspr.jsn:$(TARGET_COPY_OUT_MODEM)/image/cdspr.jsn \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b00:$(TARGET_COPY_OUT_MODEM)/image/modem.b00 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b01:$(TARGET_COPY_OUT_MODEM)/image/modem.b01 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b02:$(TARGET_COPY_OUT_MODEM)/image/modem.b02 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b03:$(TARGET_COPY_OUT_MODEM)/image/modem.b03 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b04:$(TARGET_COPY_OUT_MODEM)/image/modem.b04 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b05:$(TARGET_COPY_OUT_MODEM)/image/modem.b05 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b06:$(TARGET_COPY_OUT_MODEM)/image/modem.b06 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b07:$(TARGET_COPY_OUT_MODEM)/image/modem.b07 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b08:$(TARGET_COPY_OUT_MODEM)/image/modem.b08 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b09:$(TARGET_COPY_OUT_MODEM)/image/modem.b09 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b10:$(TARGET_COPY_OUT_MODEM)/image/modem.b10 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b11:$(TARGET_COPY_OUT_MODEM)/image/modem.b11 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b12:$(TARGET_COPY_OUT_MODEM)/image/modem.b12 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b13:$(TARGET_COPY_OUT_MODEM)/image/modem.b13 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b15:$(TARGET_COPY_OUT_MODEM)/image/modem.b15 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b16:$(TARGET_COPY_OUT_MODEM)/image/modem.b16 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b17:$(TARGET_COPY_OUT_MODEM)/image/modem.b17 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b18:$(TARGET_COPY_OUT_MODEM)/image/modem.b18 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b19:$(TARGET_COPY_OUT_MODEM)/image/modem.b19 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b20:$(TARGET_COPY_OUT_MODEM)/image/modem.b20 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b22:$(TARGET_COPY_OUT_MODEM)/image/modem.b22 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b23:$(TARGET_COPY_OUT_MODEM)/image/modem.b23 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b24:$(TARGET_COPY_OUT_MODEM)/image/modem.b24 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b25:$(TARGET_COPY_OUT_MODEM)/image/modem.b25 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b26:$(TARGET_COPY_OUT_MODEM)/image/modem.b26 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b27:$(TARGET_COPY_OUT_MODEM)/image/modem.b27 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b28:$(TARGET_COPY_OUT_MODEM)/image/modem.b28 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b29:$(TARGET_COPY_OUT_MODEM)/image/modem.b29 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.b31:$(TARGET_COPY_OUT_MODEM)/image/modem.b31 \
+    vendor/realme/ferrari/proprietary/modem/image/modem.mdt:$(TARGET_COPY_OUT_MODEM)/image/modem.mdt \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b00:$(TARGET_COPY_OUT_MODEM)/image/slpi.b00 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b01:$(TARGET_COPY_OUT_MODEM)/image/slpi.b01 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b02:$(TARGET_COPY_OUT_MODEM)/image/slpi.b02 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b03:$(TARGET_COPY_OUT_MODEM)/image/slpi.b03 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b04:$(TARGET_COPY_OUT_MODEM)/image/slpi.b04 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b05:$(TARGET_COPY_OUT_MODEM)/image/slpi.b05 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b06:$(TARGET_COPY_OUT_MODEM)/image/slpi.b06 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b07:$(TARGET_COPY_OUT_MODEM)/image/slpi.b07 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b08:$(TARGET_COPY_OUT_MODEM)/image/slpi.b08 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b09:$(TARGET_COPY_OUT_MODEM)/image/slpi.b09 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b10:$(TARGET_COPY_OUT_MODEM)/image/slpi.b10 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b11:$(TARGET_COPY_OUT_MODEM)/image/slpi.b11 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b12:$(TARGET_COPY_OUT_MODEM)/image/slpi.b12 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b13:$(TARGET_COPY_OUT_MODEM)/image/slpi.b13 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b14:$(TARGET_COPY_OUT_MODEM)/image/slpi.b14 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b15:$(TARGET_COPY_OUT_MODEM)/image/slpi.b15 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b16:$(TARGET_COPY_OUT_MODEM)/image/slpi.b16 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b17:$(TARGET_COPY_OUT_MODEM)/image/slpi.b17 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b18:$(TARGET_COPY_OUT_MODEM)/image/slpi.b18 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b19:$(TARGET_COPY_OUT_MODEM)/image/slpi.b19 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b20:$(TARGET_COPY_OUT_MODEM)/image/slpi.b20 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b21:$(TARGET_COPY_OUT_MODEM)/image/slpi.b21 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.b23:$(TARGET_COPY_OUT_MODEM)/image/slpi.b23 \
+    vendor/realme/ferrari/proprietary/modem/image/slpi.mdt:$(TARGET_COPY_OUT_MODEM)/image/slpi.mdt \
+    vendor/realme/ferrari/proprietary/modem/image/slpir.jsn:$(TARGET_COPY_OUT_MODEM)/image/slpir.jsn \
+    vendor/realme/ferrari/proprietary/modem/image/slpius.jsn:$(TARGET_COPY_OUT_MODEM)/image/slpius.jsn \
     vendor/realme/ferrari/proprietary/odm/etc/acdbdata/Audio_Parameter_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Audio_Parameter_Version.txt \
     vendor/realme/ferrari/proprietary/odm/etc/acdbdata/EU/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/EU/acdb_cal.acdb \
     vendor/realme/ferrari/proprietary/odm/etc/acdbdata/FTM/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/FTM/acdb_cal.acdb \
@@ -15,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/odm/etc/acdbdata/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/acdb_cal.acdb \
     vendor/realme/ferrari/proprietary/odm/etc/camera/3dphoto/color_depth_inpaint.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/3dphoto/color_depth_inpaint.dlc \
     vendor/realme/ferrari/proprietary/odm/etc/camera/3dphoto/midas_small_ver9_fp16_gpu.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/3dphoto/midas_small_ver9_fp16_gpu.dlc \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/AiFace.json:$(TARGET_COPY_OUT_ODM)/etc/camera/AiFace.json \
     vendor/realme/ferrari/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
     vendor/realme/ferrari/proprietary/odm/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode \
     vendor/realme/ferrari/proprietary/odm/etc/camera/aicolor/duallut_background.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_background.bmp \
@@ -33,18 +135,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/odm/etc/camera/anc_cl_kernel_ins.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel_ins.cache \
     vendor/realme/ferrari/proprietary/odm/etc/camera/ancsegbase/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/anc_cl_kernel.cache \
     vendor/realme/ferrari/proprietary/odm/etc/camera/ancsegbase/model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/model.data \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/arcsoft_eis_configure:$(TARGET_COPY_OUT_ODM)/etc/camera/arcsoft_eis_configure \
     vendor/realme/ferrari/proprietary/odm/etc/camera/asd/class.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class.dlc \
     vendor/realme/ferrari/proprietary/odm/etc/camera/asd/detect.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/detect.dlc \
     vendor/realme/ferrari/proprietary/odm/etc/camera/ashdr/ncf_pack.ncf:$(TARGET_COPY_OUT_ODM)/etc/camera/ashdr/ncf_pack.ncf \
     vendor/realme/ferrari/proprietary/odm/etc/camera/camera_engmode.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/camera_engmode.xml \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/capture_bokeh_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_bokeh_params.json \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/capture_lutportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_lutportrait_params.json \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/capture_neonportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_neonportrait_params.json \
     vendor/realme/ferrari/proprietary/odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/cfr_bin/CFR_imx766.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_imx766.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/cfr_bin/CFR_imx766_uw.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_imx766_uw.bin \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/cfr_bin/CFR_ov08a10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_ov08a10.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/cfr_bin/CFR_s5k3m5.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_s5k3m5.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
     vendor/realme/ferrari/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
@@ -52,32 +149,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/odm/etc/camera/config/imx471:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx471 \
     vendor/realme/ferrari/proprietary/odm/etc/camera/config/imx615:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx615 \
     vendor/realme/ferrari/proprietary/odm/etc/camera/config/imx766:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx766 \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/config/imx789:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx789 \
     vendor/realme/ferrari/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
     vendor/realme/ferrari/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
     vendor/realme/ferrari/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
     vendor/realme/ferrari/proprietary/odm/etc/camera/config/oplus_preview_decision_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_preview_decision_params.json \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/config/ov08a10:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov08a10 \
     vendor/realme/ferrari/proprietary/odm/etc/camera/config/s5kjn1sq03:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5kjn1sq03 \
     vendor/realme/ferrari/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
     vendor/realme/ferrari/proprietary/odm/etc/camera/darksight/darksight_main.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_main.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/darksight/darksight_ultrawide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_ultrawide.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/distortionParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/distortionParams.bin \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/ColorMatrix1_imx789_0.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix1_imx789_0.txt \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/ColorMatrix1_ov08a10_3.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix1_ov08a10_3.txt \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/ColorMatrix1_s5kjn1sq03_2.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix1_s5kjn1sq03_2.txt \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/ColorMatrix2_imx789_0.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix2_imx789_0.txt \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/ColorMatrix2_ov08a10_3.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix2_ov08a10_3.txt \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/ColorMatrix2_s5kjn1sq03_2.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix2_s5kjn1sq03_2.txt \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/D28HUESATMap_imx789_0.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D28HUESATMap_imx789_0.txt \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/D28HUESATMap_ov08a10_3.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D28HUESATMap_ov08a10_3.txt \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/D28HUESATMap_s5kjn1sq03_2.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D28HUESATMap_s5kjn1sq03_2.txt \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/D65HUESATMap_imx789_0.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D65HUESATMap_imx789_0.txt \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/D65HUESATMap_ov08a10_3.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D65HUESATMap_ov08a10_3.txt \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/D65HUESATMap_s5kjn1sq03_2.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/D65HUESATMap_s5kjn1sq03_2.txt \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/ToneCurve_imx789_0.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ToneCurve_imx789_0.txt \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/ToneCurve_ov08a10_3.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ToneCurve_ov08a10_3.txt \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/dng/ToneCurve_s5kjn1sq03_2.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ToneCurve_s5kjn1sq03_2.txt \
     vendor/realme/ferrari/proprietary/odm/etc/camera/dualcal_golden.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcal_golden.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/eis_camera.vcfg \
     vendor/realme/ferrari/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
@@ -126,7 +206,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/odm/etc/camera/fb_model/212.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212.png \
     vendor/realme/ferrari/proprietary/odm/etc/camera/fb_model/212_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212_pre.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/fb_model/213.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/213.png \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/fb_model/AIdeblemishSnapMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/AIdeblemishSnapMask.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/fb_model/DREAM_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/DREAM_1_4_1005_838.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/fb_model/DREAM_4_5_354_654.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/DREAM_4_5_354_654.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/fb_model/EYES_MUTIL_3_4_354_654.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/EYES_MUTIL_3_4_354_654.bin \
@@ -507,7 +586,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/odm/etc/camera/gesture/tt_hand_gesture_v11.1.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_gesture_v11.1.model \
     vendor/realme/ferrari/proprietary/odm/etc/camera/gesture/tt_hand_kp_v6.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_kp_v6.0.model \
     vendor/realme/ferrari/proprietary/odm/etc/camera/gesture/tt_hand_lr_v3.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_lr_v3.0.model \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/libiceainr_model.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/libiceainr_model.dlc \
     vendor/realme/ferrari/proprietary/odm/etc/camera/license_release_fdc.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/license_release_fdc.lic \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/ByYo3If \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/Cold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Cold.cube.rgb.bin \
@@ -527,7 +605,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/black_gold.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/bright_coloured.bin \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/city.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/city.cube.rgb.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/cola.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cola.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/drjw1994.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw1994.bin \
@@ -559,14 +636,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/gt-rosy.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-rosy.cube.rgb.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/interstellar_space.bin \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/island.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/island.cube.rgb.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/kodak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/kodak.cube.rgb.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/meicam.child.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/meicam.child.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/mono.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mono.cube.rgb.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/morandi.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/morandi.cube.rgb.bin \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/mountains.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mountains.cube.rgb.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/natural.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/natural.cube.rgb.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/neon-2020.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/neon-2020.cube.rgb.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/meishe_lut/oplus-black-gold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-black-gold.cube.rgb.bin \
@@ -591,9 +666,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/odm/etc/camera/model/license.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/model/license.lic \
     vendor/realme/ferrari/proprietary/odm/etc/camera/model_fdc.data:$(TARGET_COPY_OUT_ODM)/etc/camera/model_fdc.data \
     vendor/realme/ferrari/proprietary/odm/etc/camera/motionblur/model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/motionblur/model.data \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mtStereoParams.bin \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mwStereoParams.bin \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/neon_yuv_LUT_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/neon_yuv_LUT_64.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/oplus_eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_eis_camera.vcfg \
     vendor/realme/ferrari/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/ColorLut:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/ColorLut \
     vendor/realme/ferrari/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/CurveLut:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/CurveLut \
@@ -853,13 +925,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/odm/etc/camera/pfb_bin/snapProgram_bwBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapProgram_bwBinary.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/pfb_bin/snapSaveMaskBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapSaveMaskBinary.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/pfb_bin/snapSurfaceBlurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/snapSurfaceBlurBinary.bin \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/selfbokehParam.json:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehParam.json \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehmodel.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
     vendor/realme/ferrari/proprietary/odm/etc/camera/settings_fdc_lite.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc_lite.txt \
     vendor/realme/ferrari/proprietary/odm/etc/camera/singleblur/license_release.license:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/license_release.license \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/singleblur/personseg.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/personseg.bin \
-    vendor/realme/ferrari/proprietary/odm/etc/camera/singleblur/preview_seg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/preview_seg.json \
     vendor/realme/ferrari/proprietary/odm/etc/camera/stereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/stereoParams.bin \
     vendor/realme/ferrari/proprietary/odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/M_SenseME_Action_5.2.12.model \
     vendor/realme/ferrari/proprietary/odm/etc/camera/sticker/material/animoji/data.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/data.zip \
@@ -917,6 +985,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/odm/etc/init/init.camera_debug_ui.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_debug_ui.rc \
     vendor/realme/ferrari/proprietary/odm/etc/init/init.camera_process.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_process.rc \
     vendor/realme/ferrari/proprietary/odm/etc/init/init.odm.camera.provider.override.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.odm.camera.provider.override.rc \
+    vendor/realme/ferrari/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc \
     vendor/realme/ferrari/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/realme/ferrari/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/realme/ferrari/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
@@ -984,6 +1053,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/odm/etc/lvacfs_params/3mic/audiozoom_2.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/3mic/audiozoom_2.txt \
     vendor/realme/ferrari/proprietary/odm/etc/lvacfs_params/3mic/audiozoom_3.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/3mic/audiozoom_3.txt \
     vendor/realme/ferrari/proprietary/odm/etc/permissions/oplus.fingerprint.unlock_without_icon.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/oplus.fingerprint.unlock_without_icon.xml \
+    vendor/realme/ferrari/proprietary/odm/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml \
     vendor/realme/ferrari/proprietary/odm/etc/sensor/config/lux_aod.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lux_aod.json \
     vendor/realme/ferrari/proprietary/odm/etc/sensor/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/sns_gyro_cal.json \
     vendor/realme/ferrari/proprietary/odm/etc/sensor/config/waipio_qrd_ak0991x.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/waipio_qrd_ak0991x.json \
@@ -1004,6 +1074,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/odm/etc/wifi/sar-vendor-cmd.xml:$(TARGET_COPY_OUT_ODM)/etc/wifi/sar-vendor-cmd.xml \
     vendor/realme/ferrari/proprietary/odm/etc/wifi/wifisar.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifisar.cfg \
     vendor/realme/ferrari/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
+    vendor/realme/ferrari/proprietary/odm/init.oplus.face.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.face.rc \
     vendor/realme/ferrari/proprietary/odm/init.oplus.fingerprints.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.fingerprints.rc \
     vendor/realme/ferrari/proprietary/odm/lib64/camera/com.qti.sensormodule.qtech_imx615.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.qtech_imx615.bin \
     vendor/realme/ferrari/proprietary/odm/lib64/camera/com.qti.sensormodule.qtech_imx766_main.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.qtech_imx766_main.bin \
@@ -1067,6 +1138,18 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/odm/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b06 \
     vendor/realme/ferrari/proprietary/odm/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b07 \
     vendor/realme/ferrari/proprietary/odm/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.mdt \
+    vendor/realme/ferrari/proprietary/product/etc/permissions/fingerprint_auth_prompt_skip_list.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/fingerprint_auth_prompt_skip_list.xml \
+    vendor/realme/ferrari/proprietary/system/framework/boot-tcmiface.vdex:$(TARGET_COPY_OUT_SYSTEM)/framework/boot-tcmiface.vdex \
+    vendor/realme/ferrari/proprietary/system_ext/etc/obrain/assets/GpuAgent_AggDailyCmd.sql:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/obrain/assets/GpuAgent_AggDailyCmd.sql \
+    vendor/realme/ferrari/proprietary/system_ext/etc/obrain/assets/GpuAgent_AggHourlyCmd.sql:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/obrain/assets/GpuAgent_AggHourlyCmd.sql \
+    vendor/realme/ferrari/proprietary/system_ext/etc/obrain/assets/ThermalAgent_AggThermalAgentAnalyseCmd.sql:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/obrain/assets/ThermalAgent_AggThermalAgentAnalyseCmd.sql \
+    vendor/realme/ferrari/proprietary/system_ext/etc/obrain/assets/ThermalAgent_AggThermalAgentAppHourLyCmd.sql:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/obrain/assets/ThermalAgent_AggThermalAgentAppHourLyCmd.sql \
+    vendor/realme/ferrari/proprietary/system_ext/etc/obrain/assets/ThermalAgent_AggThermalAgentDailyCmd.sql:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/obrain/assets/ThermalAgent_AggThermalAgentDailyCmd.sql \
+    vendor/realme/ferrari/proprietary/system_ext/etc/obrain/assets/ThermalAgent_CompThermalAgentEventCmd.sql:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/obrain/assets/ThermalAgent_CompThermalAgentEventCmd.sql \
+    vendor/realme/ferrari/proprietary/system_ext/etc/obrain/assets/plugin/GpuValidation.sql:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/obrain/assets/plugin/GpuValidation.sql \
+    vendor/realme/ferrari/proprietary/system_ext/etc/obrain/assets/selfTest/SqlProxy_Gpu_SelfTestCmd.sql:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/obrain/assets/selfTest/SqlProxy_Gpu_SelfTestCmd.sql \
+    vendor/realme/ferrari/proprietary/system_ext/etc/obrain/assets/selfTest/SqlProxy_Thermal_SelfTestCmd.sql:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/obrain/assets/selfTest/SqlProxy_Thermal_SelfTestCmd.sql \
+    vendor/realme/ferrari/proprietary/system_ext/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml \
     vendor/realme/ferrari/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
     vendor/realme/ferrari/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/realme/ferrari/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
@@ -1075,6 +1158,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/vendor/etc/permissions/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.front.xml \
     vendor/realme/ferrari/proprietary/vendor/etc/permissions/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.full.xml \
     vendor/realme/ferrari/proprietary/vendor/etc/permissions/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml \
+    vendor/realme/ferrari/proprietary/vendor/etc/permissions/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute-0.xml \
+    vendor/realme/ferrari/proprietary/vendor/etc/permissions/android.hardware.vulkan.level-1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level-1.xml \
+    vendor/realme/ferrari/proprietary/vendor/etc/permissions/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_1.xml \
+    vendor/realme/ferrari/proprietary/vendor/etc/permissions/android.software.vulkan.deqp.level.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
     vendor/realme/ferrari/proprietary/vendor/etc/permissions/qti_fingerprint_interface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_fingerprint_interface.xml \
     vendor/realme/ferrari/proprietary/vendor/etc/sensors/config/qsh_camera.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qsh_camera.json \
     vendor/realme/ferrari/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
@@ -1173,6 +1260,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
     vendor/realme/ferrari/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
     vendor/realme/ferrari/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
+    vendor/realme/ferrari/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/realme/ferrari/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
     vendor/realme/ferrari/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
     vendor/realme/ferrari/proprietary/vendor/lib64/camera/arcsoft_calibration_uw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_calibration_uw.bin \
@@ -1212,6 +1300,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ferrari/proprietary/vendor/lib64/camera/imx588.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/imx588.pb
 
 PRODUCT_PACKAGES += \
+    liboplusvideoboostclient \
     camx.device@3.2-impl \
     camx.device@3.3-impl \
     camx.device@3.4-ext-impl \
@@ -1247,6 +1336,7 @@ PRODUCT_PACKAGES += \
     libcamxswispiqmodule \
     libcamxswprocessalgo \
     libcamxtintlessalgo \
+    libgpu_tonemapper \
     libmmcamera_bestats \
     libmmcamera_cac \
     libmmcamera_lscv35 \
@@ -1262,6 +1352,20 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.osense.client-V1-ndk_platform \
     vendor.qti.hardware.camera.aon@1.0-service-impl \
     vendor.qti.hardware.fingerprint@1.0 \
+    libEGL_adreno \
+    libGLESv1_CM_adreno \
+    libGLESv2_adreno \
+    libVkLayer_ADRENO_qprofiler \
+    libq3dtools_adreno \
+    vulkan.adreno \
+    libFace3DTA \
+    libFace3D_hlos \
+    libadreno_utils \
+    libface3d_dev \
+    libgpudataproducer \
+    libsns_device_mode_stub \
+    libsns_registry_skel \
+    libsnsdiaglog \
     android.hardware.biometrics.fingerprint-V1-ndk_platform \
     camera.device@1.0-impl \
     com.arcsoft.node.eisv2 \
@@ -1406,6 +1510,12 @@ PRODUCT_PACKAGES += \
     libubifocus \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk_platform \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
+    libbsproxy \
+    libgpuserviceextimpl \
+    libgpustress_eng \
+    libvulkanextimpl \
+    vendor.oplus.hardware.biometrics.fingerprintpay-V1-ndk \
+    vendor.oplus.hardware.gameopt-V1-ndk \
     android.hardware.biometrics.common-V1-ndk_platform \
     android.hardware.keymaster-V3-ndk_platform \
     com.qti.sensor.imx615 \
@@ -1416,21 +1526,52 @@ PRODUCT_PACKAGES += \
     fingerprint.goodix_G5.default \
     fingerprint.goodix_G6.default \
     fingerprint.goodix_G7.default \
+    libAlgoInterface \
+    libBokehPre \
+    libEIS \
+    libFaceBeautyCap \
+    libFaceBeautyPre \
+    libSnpeGpu \
+    libWaterMode \
     lib_lvacfs \
-    libalog \
-    libalogencrypt \
+    libarcsoft_distortion_correction \
+    libarcsoft_hdr_couple_api_v4 \
+    libarcsoft_hdr_denoise_api \
+    libarcsoft_hdr_denoise_api_v4 \
+    libarcsoft_high_dynamic_range \
+    libarcsoft_high_dynamic_range_couple_v4 \
+    libarcsoft_high_dynamic_range_v4 \
+    libarcsoft_lensstaindetection \
+    libarcsoft_low_light_hdr \
+    libarcsoft_scbokeh_video \
+    libarcsoft_smart_denoise \
+    libarcsoft_smart_denoise_v4 \
+    libcvface_api \
     libgf_hal_G2 \
     libgf_hal_G3 \
     libgf_hal_G5 \
     libgf_hal_G6 \
     libgf_hal_G7 \
+    libhyperlapse \
     liblvacfs_wrapper \
+    libop-ai-beauty-faceretouch-cn \
+    libremosaic_wrapper \
+    libstface_fd_api \
+    libstfaceunlockocl \
+    vendor.oplus.hardware.biometrics.fingerprintpay-V1-ndk_platform \
     vendor.oplus.hardware.cameraextension-V1-service-impl \
     vendor.oplus.hardware.engcamera@1.0 \
     vendor.oplus.hardware.extcamera@1.0 \
+    vendor.oplus.hardware.handlefactory-V1-ndk_platform \
+    vendor.oplus.hardware.virtual_device.camera.hal@3.3 \
+    vendor.oplus.hardware.virtual_device.camera.manager@1.0-impl \
+    vendor.oplus.hardware.virtual_device.camera.manager@1.0 \
+    vendor.oplus.hardware.virtual_device.camera.provider@2.4-impl \
+    vendor.oplus.hardware.virtual_device.camera.provider@2.5-impl \
+    vendor.oplus.hardware.virtual_device.camera.provider@2.6-impl \
+    vendor.oplus.hardware.virtual_device.camera.provider@2.7-impl \
     libQnnHtp \
     libQnnHtpPrepare \
-    libQnnHtpV69Stub \
     libQnnSystem \
     anc.capacitive.hal \
     anc.hal \
@@ -1450,7 +1591,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.1-impl \
     lib2DSlender \
     lib3d_photo \
-    libAlgoInterface \
     libAlgoProcess \
     libAncFilter \
     libAncHumBokeh \
@@ -1461,17 +1601,13 @@ PRODUCT_PACKAGES += \
     libAncHumanSegFigureFusion \
     libAncSegBaseSdk \
     libAncSegmentSdk \
-    libBokehPre \
     libCNamaSDK_vendor \
     libCOppLceTonemapAPI \
     libCaptureBokeh \
     libDeVIS \
-    libEIS \
     libFDClite \
-    libFaceBeautyCap \
     libFaceBeautyJni \
     libFaceBeautyPICap \
-    libFaceBeautyPre \
     libFaceDistortionCorrection \
     libFilterWrapper \
     libHIS \
@@ -1490,7 +1626,6 @@ PRODUCT_PACKAGES += \
     libRedeyeReduce \
     libSNPE \
     libSnpeCpu \
-    libSnpeGpu \
     libSnpeHtpV68Stub \
     libSnpeHtpV69Stub \
     libStarMode \
@@ -1507,7 +1642,6 @@ PRODUCT_PACKAGES += \
     libVDUpScale \
     libVideoEnhance \
     libWaterMark \
-    libWaterMode \
     libXDocProcessSDK \
     libYTCommon \
     lib_rectify \
@@ -1529,10 +1663,8 @@ PRODUCT_PACKAGES += \
     libapsjpeg \
     libapspng \
     libapsyuv \
-    libarc_eis_custom \
     libarcsoft_aicolor_image \
     libarcsoft_aicolor_video \
-    libarcsoft_distortion_correction \
     libarcsoft_dual_sat \
     libarcsoft_dual_zoomtranslator \
     libarcsoft_dualcam_bokeh_api \
@@ -1541,16 +1673,8 @@ PRODUCT_PACKAGES += \
     libarcsoft_dualcam_refocus_uw \
     libarcsoft_eis_wrapper \
     libarcsoft_hdr_couple_api \
-    libarcsoft_hdr_couple_api_v4 \
-    libarcsoft_hdr_denoise_api \
-    libarcsoft_hdr_denoise_api_v4 \
     libarcsoft_hdrplus_hvx_stub \
-    libarcsoft_high_dynamic_range \
     libarcsoft_high_dynamic_range_couple \
-    libarcsoft_high_dynamic_range_couple_v4 \
-    libarcsoft_high_dynamic_range_v4 \
-    libarcsoft_lensstaindetection \
-    libarcsoft_low_light_hdr \
     libarcsoft_low_light_hdr_for_neon \
     libarcsoft_mcxmflpolicy \
     libarcsoft_pic_best \
@@ -1559,9 +1683,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_preview_antibanding \
     libarcsoft_qnnhtp \
     libarcsoft_scbokeh_image \
-    libarcsoft_scbokeh_video \
-    libarcsoft_smart_denoise \
-    libarcsoft_smart_denoise_v4 \
     libarcsoft_super_night_raw \
     libarcsoft_super_night_se_raw \
     libarcsoft_triple_sat \
@@ -1571,7 +1692,6 @@ PRODUCT_PACKAGES += \
     libcalculator_htp \
     libcreatebin \
     libcustomer_halalgovisual \
-    libcvface_api \
     libdualcam_image_optical_zoom \
     libdualcam_optical_zoom_control \
     libdualcam_video_optical_zoom \
@@ -1581,17 +1701,14 @@ PRODUCT_PACKAGES += \
     libextensionlayer \
     libfuai_vendor \
     libhwconfigurationutil \
-    libhyperlapse \
     libmotionblur \
     libmpbase \
-    libop-ai-beauty-faceretouch-cn \
     liboplus-uah-client \
     liboptical_zoom_dc \
     liboptical_zoom_vs \
     libormshalclient \
     libpngwrapper \
     libpnscr2 \
-    libremosaic_wrapper \
     librmsclib1 \
     librpmbengclient \
     libsaveshaderbin \
@@ -1603,8 +1720,6 @@ PRODUCT_PACKAGES += \
     libsnpe_loader \
     libstblur_api \
     libstblur_capture_api \
-    libstface_fd_api \
-    libstfaceunlockocl \
     libstfd_mobile_api \
     libtfa98xx \
     libthirdcapability \
@@ -1650,12 +1765,19 @@ PRODUCT_PACKAGES += \
     odm_lib_rfsa_adsp_libvdblurless_4_6_10L_skel_so \
     odm_lib_rfsa_adsp_libvdblurless_skel_so \
     odm_lib_rfsa_adsp_libvdsuperphoto_skel_so \
+    com.qualcomm.qti.gpudrivers.taro.api32 \
+    android.hardware.biometrics.fingerprint-V2.3-java \
+    tcmiface \
+    vendor.oplus.hardware.biometrics.fingerprint-V2.1-java \
+    vendor.oplus.hardware.biometrics.fingerprintpay-V1-java \
+    vendor.qti.hardware.fingerprint-V1.0-java \
     manifest_oplus_cameraextension_aidl.xml \
     manifest_oplus_face.xml \
     manifest_oplus_fingerprint.xml \
     qfp-daemon \
     vendor.qti.camera.provider@2.7-service_64 \
     qvrcameratest \
+    fingerprintlog_manager \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor.qti.esepowermanager@1.1-service \
     vendor.qti.secure_element@1.2-service \
