@@ -1512,7 +1512,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     libbsproxy \
     libgpuserviceextimpl \
-    libgpustress_eng \
     libvulkanextimpl \
     vendor.oplus.hardware.biometrics.fingerprintpay-V1-ndk \
     vendor.oplus.hardware.gameopt-V1-ndk \
@@ -1564,12 +1563,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.extcamera@1.0 \
     vendor.oplus.hardware.handlefactory-V1-ndk_platform \
     vendor.oplus.hardware.virtual_device.camera.hal@3.3 \
-    vendor.oplus.hardware.virtual_device.camera.manager@1.0-impl \
     vendor.oplus.hardware.virtual_device.camera.manager@1.0 \
-    vendor.oplus.hardware.virtual_device.camera.provider@2.4-impl \
-    vendor.oplus.hardware.virtual_device.camera.provider@2.5-impl \
-    vendor.oplus.hardware.virtual_device.camera.provider@2.6-impl \
-    vendor.oplus.hardware.virtual_device.camera.provider@2.7-impl \
     libQnnHtp \
     libQnnHtpPrepare \
     libQnnSystem \
